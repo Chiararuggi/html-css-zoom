@@ -16,17 +16,19 @@
 }
 
 .main-container{
-    min-height:calc(100vh - 70px);
-    overflow: auto;
+    height:calc(100vh - 140px);
     width:90%;
     margin: auto;
+    overflow-y: auto;
+    padding: 10px;
 
 }
 
-.row{
+.imgrow{
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
+
 }
 
 .imgbox{
@@ -40,4 +42,39 @@
 .user-mic{
     position: absolute;
     top:128px;
+}
+
+.footerrow{
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-col{
+    display: flex;
+    align-items: center;
+    width:30%;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.innercol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-col{
+    display: flex;
+    align-items: center;
+    min-width: 50%;
+    justify-content: space-between;
+}
+
+.end-col{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+    margin-right: 10px;
 }

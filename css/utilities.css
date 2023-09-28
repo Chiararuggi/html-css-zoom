@@ -10,6 +10,10 @@
     background-color: black;
 }
 
+.bg-lightblack{
+    background-color: rgba(34,34,34,255);
+}
+
 .bg-red{
     background-color: red;
 }
@@ -44,6 +48,11 @@
 .c-black{
     color: black;
 }
+
+.c-lightgreen{
+    color: rgb(32, 165, 32);
+}
+
 
 /** Margin **/
 
@@ -108,6 +117,14 @@
 
 .f-size20{
     font-size: 20px;
+}
+
+.f-size30{
+    font-size: 30px;
+}    
+
+.f-size40{
+    font-size: 40px;
 }
 
 /**Font Weight**/
