@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.headerrow{
+    min-height: 70px;
+}
+
+.headercol{
+    display: flex;
+    justify-content: flex-end;
+    align-items: first baseline;
+}
+
+.main-container{
+    min-height:calc(100vh - 70px);
+    overflow: auto;
+    width:80%;
+    margin: auto;
+}
+
+.imgbox{
+    position: relative;
+}
+
+.user-mic{
+    position: absolute;
+    top:168px;
+}
